@@ -1,11 +1,11 @@
 package mx.itesm.ag.ppt.model
 
 /**
- * Autor:Autor: Gilberto André García Gaytán
+ * @author: Gilberto André García Gaytán
  * Representa la logica una partida de ppt
  */
 class PiedraPapelTijeras {
-    var puntosJugador=0
+    var puntosJugador: Int=0
         private set
     //   private var puntosJugador: int=0
     var puntosComputadora: Int=0

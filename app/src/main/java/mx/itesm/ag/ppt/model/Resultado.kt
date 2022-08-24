@@ -1,7 +1,7 @@
 package mx.itesm.ag.ppt.model
 
 /**
- *  Autor: Gilberto André García Gaytán
+ *  @author: Gilberto André García Gaytán
  * Resultado de un juego individual ppt
  */
 

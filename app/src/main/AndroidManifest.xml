@@ -14,7 +14,7 @@
         android:theme="@style/Theme.Ppt"
         tools:targetApi="31">
         <activity
-            android:name=".JuegoPpptV"
+            android:name=".view.JuegoPpptV"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
