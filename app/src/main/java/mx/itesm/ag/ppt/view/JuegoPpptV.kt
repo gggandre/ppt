@@ -1,6 +1,7 @@
 package mx.itesm.ag.ppt.view
 
 import android.content.Intent
+import android.net.Uri
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Toast
@@ -46,10 +47,17 @@ class JuegoPpptV : AppCompatActivity() {
         }
 
         binding.fabAcercaDe.setOnClickListener {
+
+            val webpage: Uri = Uri.parse("geo:19.5978427, -99.2253865?z=17")
+            val intent = Intent(Intent.ACTION_VIEW, webpage)
+
+            startActivity(intent)
+
+
             //Mostrar la pantalla de acerca de
-            val intAcerca = Intent(this, AcercadeV::class.java) // hacer la transicion entre vistas
-            startActivity(intAcerca)
-            finish() //Termina la actividad actual
+            //val intAcerca = Intent(this, AcercadeV::class.java) // hacer la transicion entre vistas
+            //startActivity(intAcerca)
+            //finish() //Termina la actividad actual
         }
     }
 
